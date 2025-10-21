@@ -1,0 +1,108 @@
+{
+  "scenes": [
+    {
+      "id": "spawn",
+      "duration": 18,
+      "text": [
+        "EVERY LEGEND STARTS WITH NOTHING."
+      ],
+      "voiceover": "Каждая легенда начинается с нуля…",
+      "camera": {
+        "orbitDeg": 15,
+        "dolly": "in_slow"
+      },
+      "fx": [
+        "noise",
+        "dust",
+        "screenDim"
+      ],
+      "music": "pad_low",
+      "sfx": [
+        "room_tone",
+        "digital_clicks"
+      ],
+      "media": {
+        "poster": "/video/spawn.jpg",
+        "video": "/video/spawn.webm"
+      }
+    },
+    {
+      "id": "awakening",
+      "duration": 24,
+      "text": [
+        "THE WORLD WATCHES.",
+        "THE SIGNAL NEVER SLEEPS."
+      ],
+      "voiceover": "Мир смотрит. Сигнал не спит.",
+      "camera": {
+        "orbitDeg": 35,
+        "dolly": "in"
+      },
+      "fx": [
+        "hud_panels",
+        "parallax",
+        "soft_glow"
+      ],
+      "music": "heartbeat",
+      "sfx": [
+        "notif_soft",
+        "data_fizz"
+      ],
+      "media": {
+        "poster": "/video/awakening.jpg",
+        "video": "/video/awakening.webm"
+      }
+    },
+    {
+      "id": "collapse",
+      "duration": 15,
+      "text": [
+        "WHEN FAME BURNS, CODE REMAINS."
+      ],
+      "voiceover": "Когда сгорает слава — остаётся код.",
+      "camera": {
+        "orbitDeg": 60,
+        "dolly": "in_fast"
+      },
+      "fx": [
+        "glitch_heavy",
+        "sparks",
+        "mell_reveal"
+      ],
+      "music": "riser_down",
+      "sfx": [
+        "glass_bits",
+        "whoosh"
+      ],
+      "media": {
+        "poster": "/video/collapse.jpg",
+        "video": "/video/collapse.webm"
+      }
+    },
+    {
+      "id": "reborn",
+      "duration": 19,
+      "text": [
+        "MELLSTROY.GAME",
+        "THE GAME BEGINS."
+      ],
+      "voiceover": "Игра начинается.",
+      "camera": {
+        "orbitDeg": 0,
+        "dolly": "front_lock"
+      },
+      "fx": [
+        "portal_bloom",
+        "logo_sweep"
+      ],
+      "music": "stinger",
+      "sfx": [
+        "boot_chime"
+      ],
+      "media": {
+        "poster": "/video/reborn.jpg",
+        "video": "/video/reborn.webm"
+      }
+    }
+  ]
+}
